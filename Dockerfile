@@ -1,4 +1,4 @@
-FROM node:12.21.0-buster-slim as base
+FROM node:12-buster-slim as base
 
 # This image is NOT made for production use.
 LABEL maintainer="Eero Ruohola <eero.ruohola@shuup.com>"
